@@ -11,7 +11,7 @@ export default function ProfileCard({ profile, onClick }) {
         <img
           src={profile.photo}
           alt={profile.name}
-          className="w-12 h-12 rounded-full mx-auto mb-2 border-2 border-indigo-500/50"
+          className="w-12 h-12 rounded-full mx-auto mb-2 border-2 border-indigo-500"
         />
         <h3 className="text-base font-bold text-center truncate">{profile.name}</h3>
         <p className="text-xs text-center text-gray-500 dark:text-gray-400 mb-2 truncate">{profile.role}</p>
@@ -30,7 +30,7 @@ export default function ProfileCard({ profile, onClick }) {
         {profile.skills.slice(0, 3).map((skill, i) => ( 
           <span
             key={i}
-            className="text-[10px] bg-indigo-100 text-indigo-800 dark:bg-indigo-500 dark:text-indigo-800 px-2 py-0.5 rounded-full font-medium"
+            className="text-[10px] bg-indigo-100 text-indigo-800 dark:bg-indigo-600 dark:text-indigo-100 px-2 py-0.5 rounded-full font-medium"
           >
             {skill}
           </span>
