@@ -63,7 +63,7 @@ Este projeto foi inicializado com `create-next-app`.
 1.  Clone este repositório:
     ```bash
     git clone
-    cd SkillSphere
+    cd SkillSphere-Global-Solution
     ```
 2.  Instale as dependências:
     ```bash
