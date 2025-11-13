@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
-  weight: ["400","600","700","900"]
+  weight: ["400", "600", "700", "900"]
 });
 
 export const metadata = {
@@ -23,20 +23,20 @@ export default function RootLayout({ children }) {
   try {
     const stored = localStorage.getItem('theme');
     const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const dark = stored === 'dark' || (!stored && prefersDark);
-    if (dark) {
-      document.documentElement.style.setProperty('--background', '#0a0a0a');
-      document.documentElement.style.setProperty('--foreground', '#ededed');
-      document.documentElement.style.setProperty('--muted', '#9ca3af');
-      document.documentElement.style.setProperty('--card', '#0f1724');
-      document.documentElement.style.setProperty('--interactive', '#f9fafb');
-    } else {
-      document.documentElement.style.setProperty('--background', '#ffffff');
-      document.documentElement.style.setProperty('--foreground', '#171717');
-      document.documentElement.style.setProperty('--muted', '#6b7280');
-      document.documentElement.style.setProperty('--card', '#ffffff');
-      document.documentElement.style.setProperty('--interactive', '#111827');
-    }
+const dark = stored === 'dark' || (!stored && prefersDark);
+if (dark) {
+  document.documentElement.style.setProperty('--background', '#1a1a1a');
+  document.documentElement.style.setProperty('--foreground', '#f5f5f5');
+  document.documentElement.style.setProperty('--muted', '#a3a3a3');
+  document.documentElement.style.setProperty('--card', '#262626');
+  document.documentElement.style.setProperty('--interactive', '#fafafa');
+} else {
+  document.documentElement.style.setProperty('--background', '#fffbe6');
+  document.documentElement.style.setProperty('--foreground', '#202020');
+  document.documentElement.style.setProperty('--muted', '#78716c');
+  document.documentElement.style.setProperty('--card', '#ffffff');
+  document.documentElement.style.setProperty('--interactive', '#1f2937');
+}
   } catch(e){}
 })();
             `,

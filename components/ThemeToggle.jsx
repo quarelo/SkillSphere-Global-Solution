@@ -16,17 +16,17 @@ export default function ThemeToggle() {
 
   const applyVars = (dark) => {
     if (dark) {
-      document.documentElement.style.setProperty('--background', '#0a0a0a');
-      document.documentElement.style.setProperty('--foreground', '#ededed');
-      document.documentElement.style.setProperty('--muted', '#9ca3af');
-      document.documentElement.style.setProperty('--card', '#0f1724');
-      document.documentElement.style.setProperty('--interactive', '#f9fafb');
+      document.documentElement.style.setProperty('--background', '#1a1a1a'); // cinza escuro
+      document.documentElement.style.setProperty('--foreground', '#f5f5f5');
+      document.documentElement.style.setProperty('--muted', '#a3a3a3');
+      document.documentElement.style.setProperty('--card', '#262626');
+      document.documentElement.style.setProperty('--interactive', '#fafafa');
     } else {
-      document.documentElement.style.setProperty('--background', '#ffffff');
-      document.documentElement.style.setProperty('--foreground', '#171717');
-      document.documentElement.style.setProperty('--muted', '#6b7280');
+      document.documentElement.style.setProperty('--background', '#fffbe6'); // branco amarelado
+      document.documentElement.style.setProperty('--foreground', '#202020');
+      document.documentElement.style.setProperty('--muted', '#78716c');
       document.documentElement.style.setProperty('--card', '#ffffff');
-      document.documentElement.style.setProperty('--interactive', '#111827');
+      document.documentElement.style.setProperty('--interactive', '#1f2937');
     }
   };
 
