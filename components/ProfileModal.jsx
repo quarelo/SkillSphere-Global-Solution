@@ -37,27 +37,27 @@ export default function ProfileModal({ profile, onClose }) {
         </div>
         
         <div className="mb-6">
-          <h3 className="text-lg font-bold mb-2 text-indigo-600 dark:text-indigo-400">✨ Sobre</h3>
-          <p className="text-gray-700 dark:text-gray-300 italic">{profile.about}</p>
+          <h3 className="text-lg font-bold mb-2 text-indigo-600 dark:text-indigo-400">Sobre</h3>
+          <p className="text-gray-700 dark:text-gray-500 italic">{profile.about}</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-5 text-sm">
           <div>
-            <h3 className="font-bold mb-1 flex items-center gap-2 text-gray-800 dark:text-gray-200">
+            <h3 className="font-bold mb-1 flex items-center gap-2 text-gray-800 dark:text-gray-500">
               🎓 Pessoal & Acadêmica
             </h3>
             <p className="text-gray-600 dark:text-gray-400">{profile.academic}</p>
           </div>
 
           <div>
-            <h3 className="font-bold mb-1 flex items-center gap-2 text-gray-800 dark:text-gray-200">
+            <h3 className="font-bold mb-1 flex items-center gap-2 text-gray-800 dark:text-gray-500">
               💻 Habilidades Técnicas
             </h3>
             <p className="text-gray-600 dark:text-gray-400">{profile.tech}</p>
           </div>
 
           <div>
-            <h3 className="font-bold mb-1 flex items-center gap-2 text-gray-800 dark:text-gray-200">
+            <h3 className="font-bold mb-1 flex items-center gap-2 text-gray-800 dark:text-gray-500">
               🤝 Soft Skills & Hobbies
             </h3>
             <p className="text-gray-600 dark:text-gray-400">{profile.soft}</p>
@@ -74,7 +74,7 @@ export default function ProfileModal({ profile, onClose }) {
           
           <button 
             onClick={handleMessage} 
-            className="px-5 py-2 rounded-full border border-gray-300 text-gray-800 dark:border-gray-600 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition"
+            className="px-5 py-2 rounded-full border border-gray-300 text-gray-800 dark:border-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 transition"
           >
             Enviar mensagem
           </button>
