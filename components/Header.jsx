@@ -18,7 +18,7 @@ export default function Header() {
         <Search className="absolute left-3 top-2.5" size={18} style={{ color: "var(--muted)" }} />
         <input
           type="text"
-          placeholder="Pesquisar profissionais..."
+          placeholder="Pesquisar..."
           className="w-full rounded-full py-2 pl-10 pr-4 text-sm outline-none"
           style={{
             background: "var(--card)",

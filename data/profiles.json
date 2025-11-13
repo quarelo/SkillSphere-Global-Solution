@@ -1,3 +1,28 @@
-{
-  "profiles": []
-}
+[
+  {
+    "name": "Alice Johnson",
+    "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+    "role": "UX Designer",
+    "skills": ["Figma", "UI", "Teamwork"],
+    "academic": "Graduated in Digital Design - NYU",
+    "tech": "Figma, Adobe XD, UX Research",
+    "soft": "Empathy, Communication, Drawing",
+    "about": "Passionate UX Designer focused on creating user-centered solutions and beautiful interfaces. Always seeking to combine creativity with data-driven decision-making.",
+    "recommendLink": "/recommend/alice-johnson",
+    "contactLink": "mailto:alice.johnson@example.com",
+    "category": "design"
+  },
+  {
+    "name": "Lucas Martins",
+    "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+    "role": "Frontend Developer",
+    "skills": ["React", "Next.js", "Tailwind"],
+    "academic": "BSc in Computer Science - USP",
+    "tech": "React, Next.js, TypeScript, API Integration",
+    "soft": "Collaboration, Creativity, Music",
+    "about": "Experienced Frontend Developer specializing in building modern, scalable, and responsive web applications using the latest JavaScript frameworks and libraries.",
+    "recommendLink": "/recommend/lucas-martins",
+    "contactLink": "mailto:lucas.martins@example.com",
+    "category": "dev"
+  }
+]
